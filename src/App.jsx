@@ -13,7 +13,7 @@ function App() {
       //const response = await axios.post("http://localhost:3000/",
       //修改後
       const response = await axios.post(
-        "https://hash-generator-backend.vercel.app/",
+        "https://hash-generator-backend.vercel.app/hash",
         {
           text: value,
           algorithm: algorithm
